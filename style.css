@@ -32,3 +32,19 @@ color: rgb(248, 88, 85);
           float: right;
           margin-right: 20px;
 }
+canvas {
+          margin-top: 100px;
+          border-radius: 20px;
+          border: 5px solid white;
+          animation-name:light;
+          animation-duration: 4s;
+          animation-iteration-count: infinite;
+}
+@keyframes light {
+          from {
+                    box-shadow: 2px 2px 40px rgb(49, 195, 243);
+          }
+          to {
+                    box-shadow: 2px 2px 40px rgb(52, 255, 12);
+          }
+}
